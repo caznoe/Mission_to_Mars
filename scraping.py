@@ -15,7 +15,7 @@ def scrape_all():
    
    news_title, news_paragraph = mars_news(browser)
    # Run all scraping functions and store results.
-   data = {"news_title": news_title, "news_paragraph": news_paragraph, "featured_image": featured_image(browser), "facts": mars_facts(), "title": title(), "hemispheres": hemispheres(browser), "c_hemisphere": c_hemisphere(browser), "s_hemisphere": s_hemisphere(browser), "vm_hemisphere": vm_hemisphere(browser), "sm_hemisphere": sm_hemisphere(browser), "last_modified": dt.datetime.now()}
+   data = {"news_title": news_title, "news_paragraph": news_paragraph, "featured_image": featured_image(browser), "facts": mars_facts(), "hemispheres": hemispheres(browser), "c_hemisphere": c_hemisphere(browser), "s_hemisphere": s_hemisphere(browser), "vm_hemisphere": vm_hemisphere(browser), "sm_hemisphere": sm_hemisphere(browser), "last_modified": dt.datetime.now()}
    # Stop webdriver and return data
    browser.quit()
    return data
