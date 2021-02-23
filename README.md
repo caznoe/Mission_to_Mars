@@ -1,6 +1,14 @@
 # Mission_to_Mars
-Class work for Data Analytics Boot Camp.
+Created a web app to display current news from the Mission to Mars by webscraping with BeautifulSoup and Splinter. Created a MongoDB database with the data from the web scrape. Created a web application with Flask to display the data. Used HTML and CSS with Bootstrap to dispaly the style the results. Project for the UC Berkeley Data Analytics Boot Camp. 
 
-As a part of the Challenge, here is a screenshot of my Portfolio.
-![Portfolio](https://github.com/caznoe/Mission_to_Mars/blob/master/caznoe_portfolio.png)
+### Tech Used
+- Jupyter Notebook
+- Python 3
+- Beautiful Soup
+- Splinter
+- MongoDB
+- JavaScript
+- Bootstrap
+- Flask
+
 
